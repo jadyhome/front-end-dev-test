@@ -1,0 +1,60 @@
+.rooster-grin {
+  display: grid;
+}
+
+.header-text {
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 16%;
+  top: 4%;
+  left: 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+.welcome-to {
+  display: flex;
+}
+
+.company-name {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-button {
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  height: 50px;
+  /* top: 68%; */
+  border: 0;
+  color: #fff;
+  background-color: blueviolet;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
