@@ -1,14 +1,55 @@
 .rooster-grin {
   display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0px 0px;
 }
+
+.lorem-title {
+  color: orchid;
+  padding: 0;
+}
+
+/** LEARN MORE LINK **/
+.learn-more {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid orchid;
+  margin-top: 15px;
+  padding: 0;
+  transition: all 0.25s linear;
+  position: relative;
+}
+
+.learn-more:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #6ca9ff;
+  position: absolute;
+  bottom: -5px;
+  transform-origin: left;
+  transform: scale(0);
+  transition: 0.25s linear;
+}
+
+.learn-more:hover:before {
+  transform: scale(1);
+}
+
+/** LEARN MORE LINK **/
 
 .header-text {
   display: grid;
   position: absolute;
   z-index: 1;
   width: 100%;
-  text-align: center;
-  justify-content: center;
+  margin-top: 15%;
+  align-content: center;
+  justify-items: center;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,15 +67,22 @@
 
 .welcome-to {
   display: flex;
+  font-size: 54px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .company-name {
   display: flex;
+  font-size: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .button {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .hero-button {
@@ -43,13 +91,17 @@
   z-index: 1;
   width: 150px;
   height: 50px;
-  /* top: 68%; */
   border: 0;
   color: #fff;
-  background-color: blueviolet;
+  background-color: orchid;
   font-size: 14px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #6ca9ff;
 }
 
 .hero-img {
@@ -57,4 +109,110 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-text {
+    margin-top: 18%;
+  }
+  .logo {
+    width: 20%;
+    top: 5%;
+    left: 10%;
+  }
+  .welcome-to {
+    font-size: 60px;
+  }
+  .company-name {
+    font-size: 58px;
+  }
+  .hero-button {
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-text {
+    margin-top: 15%;
+  }
+  .logo {
+    width: 20%;
+    top: 3%;
+    left: 10%;
+  }
+  .welcome-to {
+    font-size: 54px;
+  }
+  .company-name {
+    font-size: 50px;
+  }
+  .hero-button {
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .header-text {
+    margin-top: 15%;
+  }
+  .logo {
+    width: 30%;
+    top: 3%;
+    left: 8%;
+  }
+  .welcome-to {
+    font-size: 40px;
+  }
+  .company-name {
+    font-size: 36px;
+  }
+  .hero-button {
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .header-text {
+    margin-top: 20%;
+  }
+  .logo {
+    width: 30%;
+    top: 3%;
+    left: 8%;
+  }
+  .welcome-to {
+    font-size: 40px;
+  }
+  .company-name {
+    font-size: 32px;
+  }
+  .hero-button {
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header-text {
+    margin-top: 25%;
+  }
+  .logo {
+    width: 30%;
+    top: 3%;
+    left: 8%;
+  }
+  .welcome-to {
+    font-size: 30px;
+  }
+  .company-name {
+    font-size: 28px;
+  }
+  .hero-button {
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+  }
 }
