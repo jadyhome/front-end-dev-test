@@ -1,0 +1,39 @@
+.carousel-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.review-info {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.name {
+  color: orchid;
+}
+
+@media screen and (max-width: 1024px) {
+  .review-info {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .review-info {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .review-info {
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+}
