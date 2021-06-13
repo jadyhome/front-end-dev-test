@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/Banner.css";
+import "../styles/Banner1.css";
 import hikeimg from "../assets/img-1.jpg";
 
 const Banner1 = () => {
   return (
     <div className="first-banner">
       <div className="text-area-1">
-        <h1>LOREM IPSUM</h1>
+        <h1 className="lorem-title">LOREM IPSUM</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -16,7 +16,7 @@ const Banner1 = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button className="learn-more">LEARN MORE</button>
+        <button className="learn-more">LEARN MORE →</button>
       </div>
       <img
         className="hike-img"

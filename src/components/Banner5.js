@@ -1,18 +1,19 @@
 import React from "react";
-import "../styles/Banner.css";
-import Carousel from "./Carousel";
+import "../styles/Banner5.css";
+import CarouselReviews from "./CarouselReviews";
 
 const Banner5 = () => {
   return (
     <div className="fifth-banner">
       <div className="lorem5">
-        <h1>
+        <h1 className="lorem-title-5">
           LOREM IPSUM <br />
           DOLOR SIT AMET
         </h1>
+        <p className="stars">★ ★ ★ ★ ★</p>
       </div>
       <div className="carousel">
-        <Carousel />
+        <CarouselReviews />
       </div>
     </div>
   );
