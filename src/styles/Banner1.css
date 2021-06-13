@@ -1,0 +1,48 @@
+/** FIRST BANNER **/
+
+.first-banner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.text-area-1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.hike-img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .hike-img {
+    height: 60vh;
+  }
+  .text-area-1 {
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-right: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hike-img {
+    height: 50vh;
+  }
+  .text-area-1 {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 675px) {
+  .text-area-1 {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+  }
+}
+
+/** FIRST BANNER **/
