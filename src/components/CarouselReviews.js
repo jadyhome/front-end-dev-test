@@ -8,13 +8,13 @@ const CarouselReviews = () => {
       name: "Theodore Frey",
       date: "January 27, 2020",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id. Congue nisi vitae suscipit tellus mauris.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id. Congue nisi vitae.",
     },
     {
       name: "Kathie Simon",
       date: "July 14, 2020",
       review:
-        "Porttitor eget dolor morbi non arcu risus. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Tincidunt eget nullam non nisi est sit amet facilisis magna.",
+        "Porttitor eget dolor morbi non arcu risus. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Tincidunt eget nullam non nisi est sit amet facilisis.",
     },
     {
       name: "Rosalia Villa",
@@ -26,13 +26,13 @@ const CarouselReviews = () => {
       name: "Anton Cain",
       date: "January 6, 2021",
       review:
-        "Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Velit dignissim sodales ut eu sem. Bibendum ut tristique et egestas quis ipsum gravida. Adipiscing diam donec adipiscing tristique.",
+        "Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Velit dignissim sodales ut eu sem. Bibendum ut tristique et egestas quis ipsum gravida. Adipiscing diam donec.",
     },
     {
       name: "Ariel Acosta",
       date: "May 29, 2021",
       review:
-        "Aliquet risus feugiat in ante metus. Cras fermentum odio eu feugiat pretium. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Eget aliquet nibh praesent tristique magna sit amet.",
+        "Aliquet risus feugiat in ante metus. Cras fermentum odio eu feugiat pretium. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Eget aliquet nibh praesent tristique.",
     },
   ];
 
