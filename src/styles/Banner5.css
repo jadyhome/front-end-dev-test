@@ -28,17 +28,7 @@
   margin-block-start: 0;
 }
 
-@media screen and (max-width: 1366px) {
-  .fifth-banner {
-    height: 45vh;
-  }
-  .lorem5 {
-    margin-left: 15%;
-    margin-right: 5%;
-    margin-top: 25%;
-  }
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-width: 1366px) {
   .fifth-banner {
     height: 30vh;
   }
@@ -48,7 +38,17 @@
     margin-top: 25%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+  .fifth-banner {
+    height: 50vh;
+  }
+  .lorem5 {
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 25%;
+  }
+}
+@media screen and (max-width: 768px) and (max-height: 1024px) {
   .fifth-banner {
     height: 40vh;
   }
@@ -71,7 +71,7 @@
     margin-block-start: 2rem;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) and (max-height: 736px) {
   .fifth-banner {
     height: 90vh;
   }

@@ -18,7 +18,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-width: 1366px) {
   .hike-img {
     height: 100%;
   }
@@ -28,7 +28,17 @@
     margin-right: 10%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+  .hike-img {
+    height: 100%;
+  }
+  .text-area-1 {
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-right: 10%;
+  }
+}
+@media screen and (max-width: 768px) and (max-height: 1024px) {
   .hike-img {
     height: 100%;
   }
@@ -39,13 +49,16 @@
   }
 }
 @media screen and (max-width: 675px) {
+  .hike-img{
+    height: 50vh;
+  }
   .text-area-1 {
     margin-top: 5%;
     margin-bottom: 10%;
     margin-left: 10%;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) and (max-height: 736px) {
   .hike-img {
     height: 50vh;
   }
