@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Banner1.css";
 import hikeimg from "../assets/img-1.jpg";
+import ModalBox from "./ModalBox";
 
 const Banner1 = () => {
   return (
@@ -12,11 +13,11 @@ const Banner1 = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          reprehenderit in voluptate velit esse cillum dolore.
         </p>
-        <button className="learn-more">LEARN MORE →</button>
+        <div className="button">
+          <ModalBox />
+        </div>
       </div>
       <img
         className="hike-img"

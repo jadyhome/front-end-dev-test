@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Banner4.css";
 import banner2 from "../assets/banner-2.jpg";
+import ModalBox from "./ModalBox";
 
 const Banner4 = () => {
   return (
@@ -13,7 +14,9 @@ const Banner4 = () => {
           Scelerisque eleifend donec pretium vulputate sapien nec sagittis
           aliquam.
         </p>
-        <button className="learn-more">LEARN MORE →</button>
+        <div className="button">
+          <ModalBox />
+        </div>
       </div>
       <img className="banner-2" src={banner2} alt="a girl smiling" />
     </div>

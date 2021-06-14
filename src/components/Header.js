@@ -1,7 +1,8 @@
 import React from "react";
-import "../styles/Global.css";
+import "../styles/Header.css";
 import whitelogo from "../assets/logo-white.svg";
 import hero from "../assets/hero.jpg";
+import HeaderModalBox from "./HeaderModalBox";
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
         <h1 className="welcome-to">WELCOME TO</h1>
         <h1 className="company-name">Rooster Grin</h1>
         <div className="button">
-          <button className="hero-button">LEARN MORE</button>
+          <HeaderModalBox />
         </div>
       </div>
       <img className="hero-img" src={hero} alt="San Francisco Bridge Sunset" />
